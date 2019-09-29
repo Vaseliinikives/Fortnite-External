@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>create_listen_socket</FUNCTION>
+    <DECORATED>?create_listen_socket@@YAHXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>connection_thread</FUNCTION>
+    <DECORATED>?connection_thread@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>connection_thread</FUNCTION>
+    <DECORATED>?connection_thread@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>connection_thread</FUNCTION>
+    <DECORATED>?connection_thread@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KSTART_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; &lt;FunctionName&gt;' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>server_thread</FUNCTION>
+    <DECORATED>?server_thread@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

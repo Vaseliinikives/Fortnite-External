@@ -1,0 +1,133 @@
+﻿  Building 'dummy' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27034 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I.\output\x64\Release\ /Zi /W4 /WX- /diagnostics:classic /Ox /Oi /Ot /Oy- /GL /D CODE_ANALYSIS /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D KMDF_VERSION_MAJOR=1 /D KMDF_VERSION_MINOR=9 /GF /Gm- /Zp8 /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /Fx /FAcs /Fa".\output\x64\Release\\" /Fo".\output\x64\Release\\" /Fd".\output\x64\Release\vc141.pdb" /FR".\output\x64\Release\\" /Gz /TC /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\warning.h" /analyze /analyze:quiet /analyze:stacksize1024 /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\EspXEngine.dll" /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\localespc.dll" /analyze:plugin"C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86\WindowsPrefast.dll" /analyze:plugin"C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86\drivers.dll" /FC /errorReport:prompt /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+  /analyze:ruleset"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\Rule Sets\AllRules.ruleset" ksocket\berkeley.c ksocket\ksocket.c
+  
+  berkeley.c
+  ksocket.c
+  Compiling...
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27034 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I.\output\x64\Release\ /Zi /W4 /WX- /diagnostics:classic /Ox /Oi /Ot /Oy- /GL /D CODE_ANALYSIS /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D KMDF_VERSION_MAJOR=1 /D KMDF_VERSION_MINOR=9 /GF /Gm- /Zp8 /GS- /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /Fx /FAcs /Fa".\output\x64\Release\\" /Fo".\output\x64\Release\\" /Fd".\output\x64\Release\vc141.pdb" /FR".\output\x64\Release\\" /Gz /TP /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared\warning.h" /analyze /analyze:quiet /analyze:stacksize1024 /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\EspXEngine.dll" /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\localespc.dll" /analyze:plugin"C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86\WindowsPrefast.dll" /analyze:plugin"C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86\drivers.dll" /FC /errorReport:prompt /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+  /analyze:ruleset"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Static Analysis Tools\Rule Sets\AllRules.ruleset" main.cpp packet_handler.cpp server.cpp
+  
+  main.cpp
+  packet_handler.cpp
+  server.cpp
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\server.cpp(13): warning C4305: 'argument': truncation from 'const int' to 'uint16_t'
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\server.cpp(13): warning C4309: 'argument': truncation of constant value
+  Compiling...
+  Microsoft (R) Incremental Linker Version 14.16.27034.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  "/OUT:.\output\x64\Release\Inject.sys" "/VERSION:10.0" /INCREMENTAL:NO /WX "/SECTION:INIT,d" Netio.lib "C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\km\x64\BufferOverflowK.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\km\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\km\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\km\x64\wmilib.lib" "C:\Program Files (x86)\Windows Kits\10\lib\wdf\kmdf\x64\1.9\WdfLdr.lib" "C:\Program Files (x86)\Windows Kits\10\lib\wdf\kmdf\x64\1.9\WdfDriverEntry.lib" /NODEFAULTLIB /MANIFEST:NO "/PDB:.\output\x64\Release\Inject.pdb" /MAP /MAPINFO:EXPORTS "/SUBSYSTEM:NATIVE,6.01" /LARGEADDRESSAWARE /Driver /OPT:REF /OPT:ICF /LTCG:incremental "/ENTRY:DriverEntry" /RELEASE /DYNAMICBASE /NXCOMPAT "/IMPLIB:.\output\x64\Release\Inject.lib" "/MERGE:_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:10.0 /pdbcompress /debugtype:pdata .\output\x64\Release\berkeley.obj 
+  .\output\x64\Release\ksocket.obj 
+  .\output\x64\Release\main.obj 
+  .\output\x64\Release\packet_handler.obj 
+  .\output\x64\Release\server.obj 
+  Generating code
+  All 39 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  dummy.vcxproj -> C:\Users\Aapo\Desktop\fortnite_shait\kernel rpm\dummy\.\output\x64\Release\Inject.sys
+  Inf2Cat task was skipped as there were no inf files to process
+  
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(120): warning C6014: Leaking memory 'Result->ai_canonname'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(159): warning C6001: Using uninitialized memory 'CanonicalNameAnsi'.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(259): warning C6001: Using uninitialized memory 'CanonicalNameAnsi'.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(394): warning C6014: Leaking memory '&ServiceNameUnicode'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(373): warning C6014: Leaking memory '&NodeNameUnicode'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(421): warning C6387: 'NodeName' could be '0':  this does not adhere to the specification for the function 'KsGetAddrInfo'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(454): warning C6001: Using uninitialized memory 'ServiceNameUnicode'.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\berkeley.c(457): warning C6001: Using uninitialized memory 'NodeNameUnicode'.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(121): warning C28023: The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'IO_COMPLETION_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '<function class name> KspAsyncContextCompletionRoutine' may fix this. <function class name> should be one of the function classes listed above.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(183): warning C28023: The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'IO_COMPLETION_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '<function class name> KspAsyncContextCompletionRoutine' may fix this. <function class name> should be one of the function classes listed above.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(365): warning C6014: Leaking memory 'NewSocket'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(398): warning C6014: Leaking memory 'NewSocket->WskSocket'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(669): warning C6320: Exception-filter expression is the constant EXCEPTION_EXECUTE_HANDLER. This might mask exceptions that were not intended to be handled.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(752): warning C6320: Exception-filter expression is the constant EXCEPTION_EXECUTE_HANDLER. This might mask exceptions that were not intended to be handled.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(799): warning C6388: 'Flags' might not be '0':  this does not adhere to the specification for the function 'WskReceiveFrom'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.c(799): warning C6387: '_Param_(5)' could be '0':  this does not adhere to the specification for the function 'WskReceiveFrom'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(246): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(246): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(242): warning C26440: Function 'dereference' can be declared 'noexcept' (f.6).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(251): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(251): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(251): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(249): warning C26429: Symbol 'szMask' is never tested for nullness, it can be marked as not_null (f.23).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(249): warning C26440: Function 'bDataCompare' can be declared 'noexcept' (f.6).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(258): warning C26461: The pointer argument 'bMask' for function 'FindPattern' can be marked as a pointer to const (con.3).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(261): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(262): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(277): warning C28197: Possibly leaking memory 'modules'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(319): warning C6014: Leaking memory 'newBuffer'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(286): warning C6011: Dereferencing NULL pointer 'modules'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(277): warning C30030: Warning: Allocating executable POOL_TYPE memory
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(286): warning C26485: Expression 'modules->Modules': No array to pointer decay (bounds.3).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(291): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(291): warning C26485: Expression '(module[i]).FullPathName': No array to pointer decay (bounds.3).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(293): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(294): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(315): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(286): warning C26429: Symbol 'module' is never tested for nullness, it can be marked as not_null (f.23).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(286): warning C26462: The value pointed to by 'module' is assigned only once, mark it as a pointer to const (con.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(308): warning C26496: The variable 'mmUnloadedDriversPtr' is assigned only once, mark it as const (con.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(270): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(277): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(293): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(294): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(308): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(315): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(316): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(327): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(330): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(343): warning C6011: Dereferencing NULL pointer 'modules'. 
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(339): warning C30030: Warning: Allocating executable POOL_TYPE memory
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(343): warning C26485: Expression 'modules->Modules': No array to pointer decay (bounds.3).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(348): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(348): warning C26485: Expression '(module[i]).FullPathName': No array to pointer decay (bounds.3).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(350): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(351): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(343): warning C26429: Symbol 'module' is never tested for nullness, it can be marked as not_null (f.23).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(368): warning C26489: Don't dereference a pointer that may be invalid: '(uintptr_t)(PiDDBCacheTable->BalancedRoot.RightChild) + 32'. 'PiDDBCacheTable._RTL_AVL_TABLE::BalancedRoot._RTL_BALANCED_LINKS::RightChild' may have been invalidated at line 368 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(381): warning C26489: Don't dereference a pointer that may be invalid: 'entry->List.Flink'. 'entry.piddbcache::List._LIST_ENTRY::Flink' may have been invalidated at line 381 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(383): warning C26489: Don't dereference a pointer that may be invalid: '(struct piddbcache *)link'. 'link' may have been invalidated at line 381 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(385): warning C26489: Don't dereference a pointer that may be invalid: 'cache_entry->TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(385): warning C26489: Don't dereference a pointer that may be invalid: 'cache_entry->TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(387): warning C26489: Don't dereference a pointer that may be invalid: 'cache_entry->TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(381): warning C26489: Don't dereference a pointer that may be invalid: 'link->Flink'. 'link' may have been invalidated at line 381 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(388): warning C26489: Don't dereference a pointer that may be invalid: 'cache_entry->DriverName'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(343): warning C26462: The value pointed to by 'module' is assigned only once, mark it as a pointer to const (con.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(337): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(339): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(350): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(351): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(360): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(360): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(368): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(370): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(383): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(395): warning C28101: This function appears to be an unannotated DriverEntry function:  DriverEntry functions should be declared using the DRIVER_INITIALIZE function typedef.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(416): warning C28023: The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KSTART_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '<function class name> <FunctionName>' may fix this. <function class name> should be one of the function classes listed above.
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(395): warning C26461: The pointer argument 'driver_object' for function 'DriverEntry' can be marked as a pointer to const (con.3).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(226): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(226): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(211): warning C26429: Symbol 'data' is never tested for nullness, it can be marked as not_null (f.23).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(210): warning C26429: Symbol 'mask' is never tested for nullness, it can be marked as not_null (f.23).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(220): warning C26490: Don't use reinterpret_cast (type.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(220): warning C26490: Don't use reinterpret_cast (type.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(235): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(235): warning C26490: Don't use reinterpret_cast (type.1).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\main.cpp(239): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(22): warning C26496: The variable 'status' is assigned only once, mark it as const (con.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(35): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(18): warning C26475: Do not use function style C-casts (es.49).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(12): warning C26475: Do not use function style C-casts (es.49).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(41): warning C26496: The variable 'status' is assigned only once, mark it as const (con.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(41): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(46): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\packet_handler.cpp(67): warning C26475: Do not use function style C-casts (es.49).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\server.cpp(22): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\server.cpp(44): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\server.cpp(50): warning C26493: Don't use C-style casts (type.4).
+c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\server.cpp(114): warning C28023: The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KSTART_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '<function class name> <FunctionName>' may fix this. <function class name> should be one of the function classes listed above.

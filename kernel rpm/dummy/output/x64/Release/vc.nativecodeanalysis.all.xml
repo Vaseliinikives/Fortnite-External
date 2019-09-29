@@ -1,0 +1,3128 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'Result-&gt;ai_canonname'. </DESCRIPTION>
+    <FUNCTION>KspUtilAddrInfoToAddrInfoEx</FUNCTION>
+    <DECORATED>KspUtilAddrInfoToAddrInfoEx</DECORATED>
+    <FUNCLINE>69</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'CanonicalNameAnsi'.</DESCRIPTION>
+    <FUNCTION>KspUtilAddrInfoToAddrInfoEx</FUNCTION>
+    <DECORATED>KspUtilAddrInfoToAddrInfoEx</DECORATED>
+    <FUNCLINE>69</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'AddrInfo-&gt;ai_canonname' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is an In/Out argument to 'RtlFreeAnsiString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12577)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>259</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'CanonicalNameAnsi'.</DESCRIPTION>
+    <FUNCTION>KspUtilAddrInfoExToAddrInfo</FUNCTION>
+    <DECORATED>KspUtilAddrInfoExToAddrInfo</DECORATED>
+    <FUNCLINE>170</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>204</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>206</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>208</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'AddrInfoEx-&gt;ai_canonname' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is an In/Out argument to 'RtlFreeAnsiString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12577)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>394</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory '&amp;ServiceNameUnicode'. </DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>396</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>446</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>373</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory '&amp;NodeNameUnicode'. </DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>446</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>421</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'NodeName' could be '0':  this does not adhere to the specification for the function 'KsGetAddrInfo'. </DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeName' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'node' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'service' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'NodeName' is an Input to 'KsGetAddrInfo' (declared at c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.h:25)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeName' should not be NULL, because this is not consistent with the SAL annotation on 'KsGetAddrInfo'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>454</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'ServiceNameUnicode'.</DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ServiceNameUnicode' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'service' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>413</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'ServiceNameUnicode' is an In/Out argument to 'RtlFreeUnicodeString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12565)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ServiceNameUnicode' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>457</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'NodeNameUnicode'.</DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeNameUnicode' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'node' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'service' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>413</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>456</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>457</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'NodeNameUnicode' is an In/Out argument to 'RtlFreeUnicodeString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12565)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>457</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeNameUnicode' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>121</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'IO_COMPLETION_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; KspAsyncContextCompletionRoutine' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>KspAsyncContextAllocate</FUNCTION>
+    <DECORATED>KspAsyncContextAllocate</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>183</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'IO_COMPLETION_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; KspAsyncContextCompletionRoutine' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>KspAsyncContextReset</FUNCTION>
+    <DECORATED>KspAsyncContextReset</DECORATED>
+    <FUNCLINE>146</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'NewSocket'. </DESCRIPTION>
+    <FUNCTION>KsCreateSocket</FUNCTION>
+    <DECORATED>KsCreateSocket</DECORATED>
+    <FUNCLINE>351</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>398</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'NewSocket-&gt;WskSocket'. </DESCRIPTION>
+    <FUNCTION>KsCreateSocket</FUNCTION>
+    <DECORATED>KsCreateSocket</DECORATED>
+    <FUNCLINE>351</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>407</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>415</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>669</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6320</DEFECTCODE>
+    <DESCRIPTION>Exception-filter expression is the constant EXCEPTION_EXECUTE_HANDLER. This might mask exceptions that were not intended to be handled.</DESCRIPTION>
+    <FUNCTION>KsSendRecv</FUNCTION>
+    <DECORATED>KsSendRecv</DECORATED>
+    <FUNCLINE>646</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>752</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6320</DEFECTCODE>
+    <DESCRIPTION>Exception-filter expression is the constant EXCEPTION_EXECUTE_HANDLER. This might mask exceptions that were not intended to be handled.</DESCRIPTION>
+    <FUNCTION>KsSendRecvUdp</FUNCTION>
+    <DECORATED>KsSendRecvUdp</DECORATED>
+    <FUNCLINE>728</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>799</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6388</DEFECTCODE>
+    <DESCRIPTION>'Flags' might not be '0':  this does not adhere to the specification for the function 'WskReceiveFrom'. </DESCRIPTION>
+    <FUNCTION>KsSendRecvUdp</FUNCTION>
+    <DECORATED>KsSendRecvUdp</DECORATED>
+    <FUNCLINE>728</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>737</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>743</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>744</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>745</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>746</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>750</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>762</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>768</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>799</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>799</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'_Param_(5)' could be '0':  this does not adhere to the specification for the function 'WskReceiveFrom'. </DESCRIPTION>
+    <FUNCTION>KsSendRecvUdp</FUNCTION>
+    <DECORATED>KsSendRecvUdp</DECORATED>
+    <FUNCLINE>728</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>737</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>743</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>744</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>745</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>746</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>750</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>762</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>768</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>799</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>246</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>dereference</FUNCTION>
+    <DECORATED>?dereference@@YA_K_KI@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>246</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>dereference</FUNCTION>
+    <DECORATED>?dereference@@YA_K_KI@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'dereference' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>dereference</FUNCTION>
+    <DECORATED>?dereference@@YA_K_KI@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>251</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>251</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>251</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'szMask' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'bDataCompare' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 'bMask' for function 'FindPattern' can be marked as a pointer to const (con.3).</DESCRIPTION>
+    <FUNCTION>FindPattern</FUNCTION>
+    <DECORATED>?FindPattern@@YA_K_K0PEAEPEAD@Z</DECORATED>
+    <FUNCLINE>258</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>261</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>FindPattern</FUNCTION>
+    <DECORATED>?FindPattern@@YA_K_K0PEAEPEAD@Z</DECORATED>
+    <FUNCLINE>258</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>262</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>FindPattern</FUNCTION>
+    <DECORATED>?FindPattern@@YA_K_K0PEAEPEAD@Z</DECORATED>
+    <FUNCLINE>258</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>28197</DEFECTCODE>
+    <DESCRIPTION>Possibly leaking memory 'modules'. </DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>319</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'newBuffer'. </DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>300</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>302</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>308</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>310</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>316</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>324</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>330</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>332</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'modules'. </DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'modules' is an In/Out argument to 'ZwQuerySystemInformation' (declared on line 202)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!(((((NTSTATUS)(status)))&gt;=0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>30030</DEFECTCODE>
+    <DESCRIPTION>Warning: Allocating executable POOL_TYPE memory</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'modules-&gt;Modules': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression '(module[i]).FullPathName': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>293</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'module' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26462</DEFECTCODE>
+    <DESCRIPTION>The value pointed to by 'module' is assigned only once, mark it as a pointer to const (con.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>308</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'mmUnloadedDriversPtr' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>270</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>293</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>308</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>316</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>327</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>330</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'modules'. </DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'modules' is an In/Out argument to 'ZwQuerySystemInformation' (declared on line 202)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>339</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>30030</DEFECTCODE>
+    <DESCRIPTION>Warning: Allocating executable POOL_TYPE memory</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'modules-&gt;Modules': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression '(module[i]).FullPathName': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'module' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>80</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: '(uintptr_t)(PiDDBCacheTable-&gt;BalancedRoot.RightChild) + 32'. 'PiDDBCacheTable._RTL_AVL_TABLE::BalancedRoot._RTL_BALANCED_LINKS::RightChild' may have been invalidated at line 368 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>80</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>381</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'entry-&gt;List.Flink'. 'entry.piddbcache::List._LIST_ENTRY::Flink' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>383</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: '(struct piddbcache *)link'. 'link' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>385</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>385</LINE>
+      <COLUMN>78</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>387</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>381</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'link-&gt;Flink'. 'link' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>388</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;DriverName'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26462</DEFECTCODE>
+    <DESCRIPTION>The value pointed to by 'module' is assigned only once, mark it as a pointer to const (con.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>337</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>339</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>360</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>360</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>80</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>370</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>383</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>28101</DEFECTCODE>
+    <DESCRIPTION>This function appears to be an unannotated DriverEntry function:  DriverEntry functions should be declared using the DRIVER_INITIALIZE function typedef.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KSTART_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; &lt;FunctionName&gt;' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 'driver_object' for function 'DriverEntry' can be marked as a pointer to const (con.3).</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>226</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>226</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>211</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'data' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'mask' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>235</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>235</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>239</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'status' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26475</DEFECTCODE>
+    <DESCRIPTION>Do not use function style C-casts (es.49).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26475</DEFECTCODE>
+    <DESCRIPTION>Do not use function style C-casts (es.49).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'status' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>handle_get_base_address</FUNCTION>
+    <DECORATED>?handle_get_base_address@@YA_KAEBUPacketGetBaseAddress@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>handle_get_base_address</FUNCTION>
+    <DECORATED>?handle_get_base_address@@YA_KAEBUPacketGetBaseAddress@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>handle_get_base_address</FUNCTION>
+    <DECORATED>?handle_get_base_address@@YA_KAEBUPacketGetBaseAddress@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26475</DEFECTCODE>
+    <DESCRIPTION>Do not use function style C-casts (es.49).</DESCRIPTION>
+    <FUNCTION>handle_incoming_packet</FUNCTION>
+    <DECORATED>?handle_incoming_packet@@YA_KAEBUPacket@@@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>create_listen_socket</FUNCTION>
+    <DECORATED>?create_listen_socket@@YAHXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>connection_thread</FUNCTION>
+    <DECORATED>?connection_thread@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>connection_thread</FUNCTION>
+    <DECORATED>?connection_thread@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>server.cpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KSTART_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; &lt;FunctionName&gt;' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>server_thread</FUNCTION>
+    <DECORATED>?server_thread@@YAXPEAX@Z</DECORATED>
+    <FUNCLINE>70</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

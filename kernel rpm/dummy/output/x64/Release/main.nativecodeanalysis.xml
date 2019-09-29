@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>246</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>dereference</FUNCTION>
+    <DECORATED>?dereference@@YA_K_KI@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>246</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>dereference</FUNCTION>
+    <DECORATED>?dereference@@YA_K_KI@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>246</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>dereference</FUNCTION>
+    <DECORATED>?dereference@@YA_K_KI@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>242</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'dereference' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>dereference</FUNCTION>
+    <DECORATED>?dereference@@YA_K_KI@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>251</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>251</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>251</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'szMask' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'bMask' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'pData' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>249</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'bDataCompare' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>bDataCompare</FUNCTION>
+    <DECORATED>?bDataCompare@@YAEPEBE0PEBD@Z</DECORATED>
+    <FUNCLINE>249</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 'bMask' for function 'FindPattern' can be marked as a pointer to const (con.3).</DESCRIPTION>
+    <FUNCTION>FindPattern</FUNCTION>
+    <DECORATED>?FindPattern@@YA_K_K0PEAEPEAD@Z</DECORATED>
+    <FUNCLINE>258</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 'szMask' for function 'FindPattern' can be marked as a pointer to const (con.3).</DESCRIPTION>
+    <FUNCTION>FindPattern</FUNCTION>
+    <DECORATED>?FindPattern@@YA_K_K0PEAEPEAD@Z</DECORATED>
+    <FUNCLINE>258</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>261</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>FindPattern</FUNCTION>
+    <DECORATED>?FindPattern@@YA_K_K0PEAEPEAD@Z</DECORATED>
+    <FUNCLINE>258</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>262</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>FindPattern</FUNCTION>
+    <DECORATED>?FindPattern@@YA_K_K0PEAEPEAD@Z</DECORATED>
+    <FUNCLINE>258</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>28197</DEFECTCODE>
+    <DESCRIPTION>Possibly leaking memory 'modules'. </DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>319</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'newBuffer'. </DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>300</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>302</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>308</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>310</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>316</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>324</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>327</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>330</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>332</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'modules'. </DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'modules' is an In/Out argument to 'ZwQuerySystemInformation' (declared on line 202)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!(((((NTSTATUS)(status)))&gt;=0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>30030</DEFECTCODE>
+    <DESCRIPTION>Warning: Allocating executable POOL_TYPE memory</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'modules-&gt;Modules': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>291</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression '(module[i]).FullPathName': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>293</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'module' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26462</DEFECTCODE>
+    <DESCRIPTION>The value pointed to by 'module' is assigned only once, mark it as a pointer to const (con.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>308</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'mmUnloadedDriversPtr' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>270</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>277</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>293</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>294</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>308</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>308</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>316</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>327</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>327</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>330</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>CleanUnloadedDrivers</FUNCTION>
+    <DECORATED>?CleanUnloadedDrivers@@YAEXZ</DECORATED>
+    <FUNCLINE>267</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'modules'. </DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>341</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'modules' is an In/Out argument to 'ZwQuerySystemInformation' (declared on line 202)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'modules' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>339</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>30030</DEFECTCODE>
+    <DESCRIPTION>Warning: Allocating executable POOL_TYPE memory</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'modules-&gt;Modules': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>348</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression '(module[i]).FullPathName': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'module' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>80</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: '(uintptr_t)(PiDDBCacheTable-&gt;BalancedRoot.RightChild) + 32'. 'PiDDBCacheTable._RTL_AVL_TABLE::BalancedRoot._RTL_BALANCED_LINKS::RightChild' may have been invalidated at line 368 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>80</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>381</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'entry-&gt;List.Flink'. 'entry.piddbcache::List._LIST_ENTRY::Flink' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>383</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: '(struct piddbcache *)link'. 'link' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>385</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>385</LINE>
+      <COLUMN>78</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>387</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;TimeDateStamp'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>381</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'link-&gt;Flink'. 'link' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>381</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'link-&gt;Flink'. 'link._LIST_ENTRY::Flink' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>388</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: 'cache_entry-&gt;DriverName'. 'cache_entry' may have been invalidated at line 381 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>343</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26462</DEFECTCODE>
+    <DESCRIPTION>The value pointed to by 'module' is assigned only once, mark it as a pointer to const (con.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>337</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>339</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>350</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>351</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>360</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>360</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>368</LINE>
+      <COLUMN>80</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>370</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>383</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>clean_piddb_cache</FUNCTION>
+    <DECORATED>?clean_piddb_cache@@YAXXZ</DECORATED>
+    <FUNCLINE>335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>28101</DEFECTCODE>
+    <DESCRIPTION>This function appears to be an unannotated DriverEntry function:  DriverEntry functions should be declared using the DRIVER_INITIALIZE function typedef.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'KSTART_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; &lt;FunctionName&gt;' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 'driver_object' for function 'DriverEntry' can be marked as a pointer to const (con.3).</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>The pointer argument 'registry_path' for function 'DriverEntry' can be marked as a pointer to const (con.3).</DESCRIPTION>
+    <FUNCTION>DriverEntry</FUNCTION>
+    <DECORATED>DriverEntry</DECORATED>
+    <FUNCLINE>395</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>226</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>226</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>226</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>211</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'data' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'mask' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'pattern' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>235</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>235</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>239</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>find_pattern</FUNCTION>
+    <DECORATED>??$find_pattern@_K@@YA_KPEAX_KPEBD2@Z</DECORATED>
+    <FUNCLINE>210</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

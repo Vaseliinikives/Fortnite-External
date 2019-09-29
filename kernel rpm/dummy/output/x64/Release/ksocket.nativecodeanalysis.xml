@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>121</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'IO_COMPLETION_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; KspAsyncContextCompletionRoutine' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>KspAsyncContextAllocate</FUNCTION>
+    <DECORATED>KspAsyncContextAllocate</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>183</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>28023</DEFECTCODE>
+    <DESCRIPTION>The function being assigned or passed should have a _Function_class_ annotation for at least one of the class(es) in: 'IO_COMPLETION_ROUTINE' Frequently, when only one function class is in use, this is caused by not declaring a callback to be of the appropriate type. Preceding the first declaration of the function by '&lt;function class name&gt; KspAsyncContextCompletionRoutine' may fix this. &lt;function class name&gt; should be one of the function classes listed above.</DESCRIPTION>
+    <FUNCTION>KspAsyncContextReset</FUNCTION>
+    <DECORATED>KspAsyncContextReset</DECORATED>
+    <FUNCLINE>146</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'NewSocket'. </DESCRIPTION>
+    <FUNCTION>KsCreateSocket</FUNCTION>
+    <DECORATED>KsCreateSocket</DECORATED>
+    <FUNCLINE>351</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>398</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'NewSocket-&gt;WskSocket'. </DESCRIPTION>
+    <FUNCTION>KsCreateSocket</FUNCTION>
+    <DECORATED>KsCreateSocket</DECORATED>
+    <FUNCLINE>351</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>376</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>407</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>415</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>669</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6320</DEFECTCODE>
+    <DESCRIPTION>Exception-filter expression is the constant EXCEPTION_EXECUTE_HANDLER. This might mask exceptions that were not intended to be handled.</DESCRIPTION>
+    <FUNCTION>KsSendRecv</FUNCTION>
+    <DECORATED>KsSendRecv</DECORATED>
+    <FUNCLINE>646</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>752</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6320</DEFECTCODE>
+    <DESCRIPTION>Exception-filter expression is the constant EXCEPTION_EXECUTE_HANDLER. This might mask exceptions that were not intended to be handled.</DESCRIPTION>
+    <FUNCTION>KsSendRecvUdp</FUNCTION>
+    <DECORATED>KsSendRecvUdp</DECORATED>
+    <FUNCLINE>728</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>799</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6388</DEFECTCODE>
+    <DESCRIPTION>'Flags' might not be '0':  this does not adhere to the specification for the function 'WskReceiveFrom'. </DESCRIPTION>
+    <FUNCTION>KsSendRecvUdp</FUNCTION>
+    <DECORATED>KsSendRecvUdp</DECORATED>
+    <FUNCLINE>728</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>737</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>743</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>744</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>745</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>746</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>750</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>762</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>768</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>799</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>ksocket.c</FILENAME>
+      <LINE>799</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'_Param_(5)' could be '0':  this does not adhere to the specification for the function 'WskReceiveFrom'. </DESCRIPTION>
+    <FUNCTION>KsSendRecvUdp</FUNCTION>
+    <DECORATED>KsSendRecvUdp</DECORATED>
+    <FUNCLINE>728</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>737</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>743</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>744</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>745</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>746</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>750</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>762</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>768</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>ksocket.c</FILENAME>
+        <LINE>799</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

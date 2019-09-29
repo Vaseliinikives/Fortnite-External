@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'status' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26475</DEFECTCODE>
+    <DESCRIPTION>Do not use function style C-casts (es.49).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26475</DEFECTCODE>
+    <DESCRIPTION>Do not use function style C-casts (es.49).</DESCRIPTION>
+    <FUNCTION>handle_copy_memory</FUNCTION>
+    <DECORATED>?handle_copy_memory@@YA_KAEBUPacketCopyMemory@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'status' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>handle_get_base_address</FUNCTION>
+    <DECORATED>?handle_get_base_address@@YA_KAEBUPacketGetBaseAddress@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>handle_get_base_address</FUNCTION>
+    <DECORATED>?handle_get_base_address@@YA_KAEBUPacketGetBaseAddress@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>handle_get_base_address</FUNCTION>
+    <DECORATED>?handle_get_base_address@@YA_KAEBUPacketGetBaseAddress@@@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy</FILEPATH>
+      <FILENAME>packet_handler.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26475</DEFECTCODE>
+    <DESCRIPTION>Do not use function style C-casts (es.49).</DESCRIPTION>
+    <FUNCTION>handle_incoming_packet</FUNCTION>
+    <DECORATED>?handle_incoming_packet@@YA_KAEBUPacket@@@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

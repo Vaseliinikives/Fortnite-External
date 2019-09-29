@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>120</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory 'Result-&gt;ai_canonname'. </DESCRIPTION>
+    <FUNCTION>KspUtilAddrInfoToAddrInfoEx</FUNCTION>
+    <DECORATED>KspUtilAddrInfoToAddrInfoEx</DECORATED>
+    <FUNCLINE>69</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>118</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'CanonicalNameAnsi'.</DESCRIPTION>
+    <FUNCTION>KspUtilAddrInfoToAddrInfoEx</FUNCTION>
+    <DECORATED>KspUtilAddrInfoToAddrInfoEx</DECORATED>
+    <FUNCLINE>69</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>103</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'AddrInfo-&gt;ai_canonname' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>134</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>143</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is an In/Out argument to 'RtlFreeAnsiString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12577)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>259</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'CanonicalNameAnsi'.</DESCRIPTION>
+    <FUNCTION>KspUtilAddrInfoExToAddrInfo</FUNCTION>
+    <DECORATED>KspUtilAddrInfoExToAddrInfo</DECORATED>
+    <FUNCLINE>170</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>193</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>204</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>206</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>208</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>215</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>217</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'AddrInfoEx-&gt;ai_canonname' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is an In/Out argument to 'RtlFreeAnsiString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12577)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CanonicalNameAnsi' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>394</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory '&amp;ServiceNameUnicode'. </DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>396</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>446</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>373</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6014</DEFECTCODE>
+    <DESCRIPTION>Leaking memory '&amp;NodeNameUnicode'. </DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>429</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>446</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>421</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'NodeName' could be '0':  this does not adhere to the specification for the function 'KsGetAddrInfo'. </DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeName' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'node' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'service' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'NodeName' is an Input to 'KsGetAddrInfo' (declared at c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.h:25)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeName' should not be NULL, because this is not consistent with the SAL annotation on 'KsGetAddrInfo'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>421</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'ServiceName' could be '0':  this does not adhere to the specification for the function 'KsGetAddrInfo'. </DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ServiceName' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'service' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'ServiceName' is an Input to 'KsGetAddrInfo' (declared at c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket\ksocket.h:25)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ServiceName' should not be NULL, because this is not consistent with the SAL annotation on 'KsGetAddrInfo'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>454</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'ServiceNameUnicode'.</DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ServiceNameUnicode' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'service' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>413</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'ServiceNameUnicode' is an In/Out argument to 'RtlFreeUnicodeString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12565)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ServiceNameUnicode' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+      <FILENAME>berkeley.c</FILENAME>
+      <LINE>457</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'NodeNameUnicode'.</DESCRIPTION>
+    <FUNCTION>getaddrinfo</FUNCTION>
+    <DECORATED>getaddrinfo</DECORATED>
+    <FUNCLINE>358</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeNameUnicode' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'node' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>388</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'service' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>408</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>411</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!(((((NTSTATUS)(Status)))&gt;=0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>413</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to Error3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>456</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>457</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'NodeNameUnicode' is an In/Out argument to 'RtlFreeUnicodeString' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\km\wdm.h:12565)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\aapo\desktop\fortnite_shait\kernel rpm\dummy\ksocket</FILEPATH>
+        <FILENAME>berkeley.c</FILENAME>
+        <LINE>457</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'NodeNameUnicode' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
