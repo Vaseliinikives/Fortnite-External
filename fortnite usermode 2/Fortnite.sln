@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fortnite", "Fortnite\Fortnite.vcxproj", "{A8903AAD-9057-4B05-A81D-E3E2C62C080E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Magic|64 = Magic|64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8903AAD-9057-4B05-A81D-E3E2C62C080E}.Magic|64.ActiveCfg = Magic|x64
+		{A8903AAD-9057-4B05-A81D-E3E2C62C080E}.Magic|64.Build.0 = Magic|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8ECBA77-E349-4B83-A8EB-7A842AA1ADC9}
+	EndGlobalSection
+EndGlobal
