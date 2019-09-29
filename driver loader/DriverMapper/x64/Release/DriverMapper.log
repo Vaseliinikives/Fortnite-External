@@ -1,0 +1,116 @@
+﻿  CapcomDriverManualMapper.cpp
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(23,33): warning C4200:  nonstandard extension used: zero-sized array in struct/union
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(23,33): message :  This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(7,48): warning C4330:  attribute 'write' for section '.LTEXT' ignored
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(70,12): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PBYTE'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(75,12): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(83,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(83,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 2 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(84,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(84,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 2 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(75,1): warning C4267:  'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(116,62): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(117,73): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(141,62): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(142,73): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(176,10): warning C4477:  'printf' : format string '%08x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'HANDLE'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(176,10): warning C4313:  'printf': '%x' in format string conflicts with argument 2 of type 'HANDLE'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\CapcomLoader.h(118,39): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\CapcomLoader.h(119,48): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(393,36): warning C4018:  '>': signed/unsigned mismatch
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(398,46): warning C4244:  '=': conversion from 'uint64_t' to 'NTSTATUS', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(403,4): warning C4244:  '=': conversion from 'uint64_t' to 'NTSTATUS', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(434,1): warning C4554:  '&': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(455,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PUCHAR'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(465,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'NTSTATUS'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(465,10): message :  consider using '%lx' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\CapcomDriverManualMapper.cpp(138,27): warning C4244:  '=': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\CapcomDriverManualMapper.cpp(195,100): warning C4244:  'argument': conversion from 'ULONGLONG' to 'ULONG', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(41,11): warning C4244:  'return': conversion from 'uint64_t' to 'NTSTATUS', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(52): message :  see reference to function template instantiation 'NTSTATUS __NtRoutine<DWORD&,unsigned __int64,DWORD&,BOOLEAN*>(const char *,DWORD &,unsigned __int64 &&,DWORD &,BOOLEAN *&&)' being compiled
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelRoutines.h(24,18): warning C4244:  'initializing': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+  Loader.cpp
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :  see reference to function template instantiation 'T KernelContext::GetProcAddress<fnFreeCall>(const char *)' being compiled
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :         with
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :         [
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :             T=fnFreeCall
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :         ]
+  main.cpp
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Loader.cpp(52,108): warning C4267:  'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(23,33): warning C4200:  nonstandard extension used: zero-sized array in struct/union
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(23,33): message :  This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(7,48): warning C4330:  attribute 'write' for section '.LTEXT' ignored
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'SIZE_T'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%lld' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%Id' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(46,10): message :  consider using '%I64d' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(70,12): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PBYTE'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(75,12): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PVOID'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(83,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(83,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 2 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(84,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\LockedMemory.h(84,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 2 has type 'char *'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(75,1): warning C4267:  'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(116,62): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(117,73): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(141,62): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(142,73): warning C4267:  '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(176,10): warning C4477:  'printf' : format string '%08x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'HANDLE'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\DriverLoader.h(176,10): warning C4313:  'printf': '%x' in format string conflicts with argument 2 of type 'HANDLE'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\CapcomLoader.h(118,39): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\CapcomLoader.h(119,48): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(393,36): warning C4018:  '>': signed/unsigned mismatch
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(398,46): warning C4244:  '=': conversion from 'uint64_t' to 'NTSTATUS', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(403,4): warning C4244:  '=': conversion from 'uint64_t' to 'NTSTATUS', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(434,1): warning C4554:  '&': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(455,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'PUCHAR'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(465,10): warning C4477:  'printf' : format string '%16llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'NTSTATUS'
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\MemoryController.h(465,10): message :  consider using '%lx' in the format string
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(41,11): warning C4244:  'return': conversion from 'uint64_t' to 'NTSTATUS', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(52): message :  see reference to function template instantiation 'NTSTATUS __NtRoutine<DWORD&,unsigned __int64,DWORD&,BOOLEAN*>(const char *,DWORD &,unsigned __int64 &&,DWORD &,BOOLEAN *&&)' being compiled
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelRoutines.h(24,18): warning C4244:  'initializing': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+  SanityChecker.cpp
+  System.cpp
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :  see reference to function template instantiation 'T KernelContext::GetProcAddress<fnFreeCall>(const char *)' being compiled
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :         with
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :         [
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :             T=fnFreeCall
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\KernelHelper.h(69): message :         ]
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(23,33): warning C4200:  nonstandard extension used: zero-sized array in struct/union
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(23,33): message :  This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(41,11): warning C4244:  'return': conversion from 'uint64_t' to 'NTSTATUS', possible loss of data
+C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\DriverMapper\Capcom\NtDefines.h(52): message :  see reference to function template instantiation 'NTSTATUS __NtRoutine<DWORD&,unsigned __int64,DWORD&,BOOLEAN*>(const char *,DWORD &,unsigned __int64 &&,DWORD &,BOOLEAN *&&)' being compiled
+  Generating code
+  651 of 661 functions (98.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  DriverMapper.vcxproj -> C:\Users\Aapo\Desktop\Paskaa\Fortnite vase cheat\driver loader\x64\Release\DriverMapper.exe
